@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  border: 0;
+}
+
+.container {
+  width: 30%;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 15px;
+  margin-left: 34%;
+  margin-top: 50px;
+  height: auto;
+}
+
+.container .logo {
+  display: -ms-grid;
+  display: grid;
+  text-align: center;
+}
+
+.container .logo img {
+  -webkit-transform: translate(50%);
+          transform: translate(50%);
+  width: 50%;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.container .logo span {
+  font-style: italic;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.login-head h3 {
+  font-size: 30px;
+  color: #00FF00;
+}
+
+.login-head h5 {
+  font-size: 20px;
+}
+
+.form form {
+  padding: 5px;
+}
+
+.form form input {
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  height: 35px;
+  width: 95%;
+}
+
+.form button {
+  border-radius: 15px;
+  padding: 5px;
+  margin-left: 9px;
+  height: 35px;
+  width: 90%;
+  background: #b4b4eb;
+  cursor: pointer;
+  outline: none;
+}
+
+.form a {
+  color: #62bac5;
+  text-decoration: none;
+}
+
+.form a p {
+  font-size: 20px;
+  text-align: right;
+  padding: 15px;
+}
+/*# sourceMappingURL=style.css.map */
