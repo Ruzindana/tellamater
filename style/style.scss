@@ -1,23 +1,26 @@
 *{
     margin: 0;
     border: 0;
+    overflow: hidden;
+
 }
 body{
-    background: black;
+    
     color: white;
 }
 .container{
     width: 30%;
     padding: 5px;
+    background: black;
     margin-left: 34%;
-    margin-top: 60px;
+    margin-top: 50px;
     height: auto;
     
     border-radius: 2px;
     .logo{
+        margin-top: 15px;
         display: grid;
         text-align: center;
-        
         img{
             transform: translate(50%);
             width: 50%;
@@ -60,16 +63,19 @@ body{
         margin-left: 9px;
         height: 35px;
         width: 90%;
+        color: #ffffff;
+        font-size: 20px;
         background: blue;
         cursor: pointer;
         outline: none;
         }
         a{
+            width: auto;
             color: rgb(255, 255, 255);
             text-decoration: none;
             
             p{
-                font-size: 10px;
+                font-size: 12px;
                 text-align: right;
                 padding: 15px;
             }
@@ -84,9 +90,10 @@ body{
      width: 100%;
      padding: 5px;
      margin: 0;
-     margin-top: 20px;
+     
      height: 100vh;
         .logo{
+            margin-top: 15px;
             display: grid;
             text-align: center;
             img{                 
@@ -140,15 +147,15 @@ body{
                              }
     
                              a{
-                                            color: rgb(255, 255, 255);
-                                            text-decoration: none;
-                                            
-                                            p{
-                                                font-size: 15px;
-                                                text-align: right;
-                                                padding: 15px;
-                                            }
-                                        }
+                                width: auto;
+                                color: rgb(255, 255, 255);
+                                text-decoration: none;  
+                                p{
+                                    font-size: 15px;
+                                    text-align: right;
+                                    padding: 15px;
+                                }
+                            }
     }
     
 }
