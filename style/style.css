@@ -159,6 +159,7 @@ body {
   }
   .container a p {
     font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: right;
     padding: 15px;
   }
