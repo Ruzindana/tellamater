@@ -149,15 +149,13 @@ body{
                              }
     
                              a{
-                                width: auto;
                                 color: rgb(255, 255, 255);
+                                margin-left: 60%;
+                                font-size: 12px;
                                 text-decoration: none;  
-                                p{
-                                    font-size: 15px;
-                                    font-family: Georgia, 'Times New Roman', Times, serif;
-                                    text-align: right;
-                                    padding: 15px;
-                                }
+                                font-family: Georgia, 'Times New Roman', Times, serif;
+                                padding: 15px;
+        
                             }
     }
     
