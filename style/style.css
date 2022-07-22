@@ -154,11 +154,11 @@ body {
     color: #ffffff;
   }
   .container .login-head h5 {
-    font-size: 15px;
+    font-size: 20px;
   }
   .container .form form {
     padding: 5px;
-    height: 100px;
+    height: auto;
   }
   .container .form form input {
     border: none;
@@ -173,6 +173,8 @@ body {
     margin-left: 9px;
     height: 35px;
     color: white;
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     width: 90%;
     background: blue;
     cursor: pointer;
@@ -181,7 +183,7 @@ body {
   .container .fgt {
     width: 50%;
     margin-left: 50%;
-    padding: 3px;
+    padding: 5px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   }
   .container .fgt a {
@@ -192,7 +194,7 @@ body {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    padding: 5px;
+    padding: 19px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;

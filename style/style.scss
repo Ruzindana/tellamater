@@ -2,10 +2,8 @@
     margin: 0;
     border: 0;
     overflow-x: hidden;
-
 }
 body{
-    
     color: white;
 }
 .container{
@@ -44,7 +42,6 @@ body{
     }
 }
 .form{
-    
     form{
         padding: 5px;  
         height: auto;      
@@ -130,13 +127,13 @@ body{
             color:#ffffff ;
         }
         h5{
-            font-size: 15px;
+            font-size: 20px;
     }
         }
         .form{
             form{
                 padding: 5px;  
-                height: 100px;    
+                height: auto;    
                 input{
                     border: none;
                     outline: none;
@@ -151,7 +148,8 @@ button{
     padding: 5px;
     margin-left: 9px;
     height: 35px;
-    color: white;
+    color: white;font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
     width: 90%;
     background: blue;
     cursor: pointer;
@@ -160,7 +158,7 @@ button{
         .fgt{
         width: 50%;
         margin-left: 50%;
-        padding: 3px;
+        padding: 5px;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         a{
             color: #ffffff;
@@ -169,7 +167,7 @@ button{
     }
     .pwd{
         display: flex;
-        padding: 5px;
+        padding: 19px;
         justify-content: center;
         align-items: center;
         text-align: center;
