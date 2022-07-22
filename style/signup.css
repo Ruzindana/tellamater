@@ -76,6 +76,8 @@
     padding: 19px;
   }
   .mob-container .lgn-mob p a {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 23px;
     text-decoration: none;
     color: blue;
   }
